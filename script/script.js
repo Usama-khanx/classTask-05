@@ -18,6 +18,18 @@ document.getElementById("calculateBtn").addEventListener('click', function(){
 
     
 
+    // var today = new Date();
+
+    // var doomsday = new Date("June 30, 2035");
+    // var msToday = today.getTime();
+    // var msDoomsday = doomsday.getTime();
+    // var msDiff = msDoomsday - msToday;
+    // var dDiff = msDiff / (1000 * 60 * 60 * 24);
+    // dDiff = Math.floor(dDiff);
+
+    // console.log(dDiff)
+
+
 
 
 
