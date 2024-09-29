@@ -8,8 +8,19 @@ document.getElementById("calculateBtn").addEventListener('click', function(){
     var AllMonths = document.getElementById("monthsBtn");
     var AllDays = document.getElementById("daysBtn");
 
+
+
+    var mydate = new Date;
+
+    var yr = mydate.getFullYear()
+    var mn = mydate.getDate()
+    var dd =mydate.getDay()
+
+    
+
+
+
+
+
 })
 
-function dateCalculation(){
-    
-}
