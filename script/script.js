@@ -2,13 +2,15 @@
 
 document.getElementById("calculateBtn").addEventListener('click', function(){
 
-    document.getElementById("inputDateField");
+   var inputdate = document.getElementById("inputDateField");
 
-    var AllYears = document.getElementById("yearsBtn");
-    var AllMonths = document.getElementById("monthsBtn");
-    var AllDays = document.getElementById("daysBtn");
+    var allYears = document.getElementById("yearsBtn");
+    var allMonths = document.getElementById("monthsBtn");
+    var allDays = document.getElementById("daysBtn");
 
 
+
+    allDays.textContent = inputdate.value;
 
     var mydate = new Date;
 
