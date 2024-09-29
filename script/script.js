@@ -11,6 +11,8 @@ document.getElementById("calculateBtn").addEventListener('click', function(){
 
 
     allDays.textContent = inputdate.value;
+    allMonths.textContent = inputdate.value;
+    allYears.textContent = inputdate.value;
 
     var mydate = new Date;
 
