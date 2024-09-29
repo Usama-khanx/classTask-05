@@ -7,7 +7,7 @@
     justify-content: center;
     height: 100vh;
     gap: 40px;
-    background: linear-gradient(45deg, rgb(47, 47, 178),rgb(59, 59, 183));
+    background: linear-gradient(45deg, rgb(28, 28, 65),#4e81e1);
 }
 
 .showDAte{
