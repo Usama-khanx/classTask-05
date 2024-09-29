@@ -1,0 +1,36 @@
+.container{
+    border: 2px solid red;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    gap: 40px;
+    background: linear-gradient(45deg, rgb(47, 47, 178),rgb(59, 59, 183));
+}
+
+.showDAte{
+   
+    padding: 12px 15px;
+    background-color: black;
+   
+}
+
+.showDAte > button{
+    padding: 16px 18px;
+}
+
+.showFigures > button{
+    background-color: black;
+    color: white;
+    padding: 16px 22px;
+}
+
+button{
+    padding: 12px 16px;
+}
+input{
+    padding: 16px 18px;
+    
+}
